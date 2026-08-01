@@ -16,6 +16,17 @@
   - [兵庫県](castles/hyogo.md) — 山城密集地帯。姫路城・竹田城・篠山城
   - [奈良県](castles/nara.md) — 高取城・信貴山城・郡山城。遺跡地図GISが充実
   - [和歌山県](castles/wakayama.md) — 和歌山城・新宮城・安宅氏城館跡
+- 都道府県別（中国）
+  - [鳥取県](castles/tottori.md) — 鳥取城・米子城。4館共同のデジタルコレクション
+  - [島根県](castles/shimane.md) — 松江城・月山富田城。悉皆調査報告書がPDF公開
+  - [岡山県](castles/okayama.md) — 悉皆調査報告書全3冊がPDF公開の先進県。鬼ノ城・備中松山城
+  - [広島県](castles/hiroshima.md) — 吉田郡山城・三原城。城絵図集「諸国古城之図」
+  - [山口県](castles/yamaguchi.md) — 大内氏館・高嶺城・萩城。遺跡地図がオープンデータ
+- 都道府県別（四国）
+  - [徳島県](castles/tokushima.md) — 勝瑞城館跡・一宮城・徳島城
+  - [香川県](castles/kagawa.md) — 高松城・丸亀城・引田城
+  - [愛媛県](castles/ehime.md) — 松山城・宇和島城・湯築城・今治城
+  - [高知県](castles/kochi.md) — 高知城・岡豊城。市町村単位の悉皆調査がPDF公開
 
 ### 神社仏閣
 

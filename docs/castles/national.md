@@ -2,7 +2,10 @@
 
 日本の城跡は全国3〜4万ヶ所。その9割以上は中世山城で、統合されたAPIやオープンデータは存在しない。ここでは全国を横断して城郭を調べられる公的データベース・地図ツール・研究基盤を整理する。
 
-[トップ](../index.md) ｜ 都道府県別: [滋賀](shiga.md) ・ [京都](kyoto.md) ・ [大阪](osaka.md) ・ [兵庫](hyogo.md) ・ [奈良](nara.md) ・ [和歌山](wakayama.md)
+[トップ](../index.md)
+近畿: [滋賀](shiga.md) ・ [京都](kyoto.md) ・ [大阪](osaka.md) ・ [兵庫](hyogo.md) ・ [奈良](nara.md) ・ [和歌山](wakayama.md)
+中国: [鳥取](tottori.md) ・ [島根](shimane.md) ・ [岡山](okayama.md) ・ [広島](hiroshima.md) ・ [山口](yamaguchi.md)
+四国: [徳島](tokushima.md) ・ [香川](kagawa.md) ・ [愛媛](ehime.md) ・ [高知](kochi.md)
 
 ## 公的データベース
 
