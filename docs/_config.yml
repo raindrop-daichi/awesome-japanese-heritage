@@ -1,4 +1,51 @@
 title: awesome-japanese-heritage
 description: 日本の城・神社仏閣・史跡の一次資料リンク集
-theme: jekyll-theme-minimal
 lang: ja
+
+# GitHub Pages (legacy build) project site.
+# Served at https://raindrop-daichi.github.io/awesome-japanese-heritage/
+url: https://raindrop-daichi.github.io
+baseurl: /awesome-japanese-heritage
+repository: raindrop-daichi/awesome-japanese-heritage
+
+remote_theme: just-the-docs/just-the-docs@v0.8.2
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Header links
+aux_links:
+  "GitHub リポジトリ":
+    - "https://github.com/raindrop-daichi/awesome-japanese-heritage"
+aux_links_new_tab: true
+
+# Navigation
+nav_sort: case_insensitive
+heading_anchors: true
+
+# Footer
+back_to_top: true
+back_to_top_text: ページ先頭へ戻る
+
+footer_content: 文章は CC BY 4.0。リンク先の資料は各提供元の条件に従います。
+gh_edit_link: true
+gh_edit_link_text: GitHub でこのページを編集
+gh_edit_repository: https://github.com/raindrop-daichi/awesome-japanese-heritage
+gh_edit_branch: main
+gh_edit_source: docs
+gh_edit_view_mode: tree
+
+color_scheme: light
