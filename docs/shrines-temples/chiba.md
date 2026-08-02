@@ -11,8 +11,8 @@ nav_order: 5
 
 ## 宗教法人名簿
 
-- **[宗教法人名簿](https://www.pref.chiba.lg.jp/gakuji/shuukyou/houjin/houjinmeibo.html)**（千葉県）
-  市町村別一覧（令和8年7月1日現在）をExcel・PDF両形式で公開。あ行〜わ行の市町村ごとにページが分かれ、法人名・所在地等が確認できる。
+- **[宗教法人名簿（エクセル）](https://www.pref.chiba.lg.jp/gakuji/shuukyou/houjin/documents/syuukyoumeibo202607.xlsx)** / **[同（PDF）](https://www.pref.chiba.lg.jp/gakuji/shuukyou/houjin/documents/syuukyoumeibo202607.pdf)**（千葉県）
+  令和8年7月1日現在の全県一括名簿ファイル。[案内ページ](https://www.pref.chiba.lg.jp/gakuji/shuukyou/houjin/houjinmeibo.html)には市町村別の個別ファイルへのリンクも並ぶ。法人名・所在地等を直接確認できる。
 
 ## 神社庁・仏教会
 

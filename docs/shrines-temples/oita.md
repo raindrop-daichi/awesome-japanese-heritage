@@ -11,7 +11,7 @@ nav_order: 5
 
 ## 宗教法人名簿
 
-- ※大分県の宗教法人名簿は、オンラインでの一般公開を確認できず。所管は[宗教法人に関する事務について](https://www.pref.oita.jp/soshiki/11700/shuhoujin.html)（大分県）のページで、宗教法人の認証・証明手続きの案内はあるが、名簿本体へのリンクはない。[宗教法人に係る申請・証明関係](https://www.pref.oita.jp/soshiki/11700/shukyo-houjin.html)（大分県）も参照可。
+- ※大分県の宗教法人名簿は、オンラインでの一般公開を確認できず。[宗教法人に関する事務について](https://www.pref.oita.jp/soshiki/11700/shuhoujin.html)（大分県）と[宗教法人に係る申請・証明関係](https://www.pref.oita.jp/soshiki/11700/shukyo-houjin.html)（大分県）はいずれも認証・証明の届出手続きの案内ページのみで、名簿本体・閲覧窓口の案内は無い。
 
 ## 神社庁・仏教会
 
