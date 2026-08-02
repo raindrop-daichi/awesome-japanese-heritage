@@ -65,8 +65,22 @@ nav_order: 7
 
 各ページ末尾の「編纂メモ」に、その県について未解決の課題を書いてある。
 
+## 継続的に確認する仕組み
+
+リンクは黙って腐る。手で確認するのは今回のような節目だけになるので、**週に一度の自動チェック**を用意した。
+
+[`scripts/linkcheck.py`](https://github.com/raindrop-daichi/awesome-japanese-heritage/blob/main/scripts/linkcheck.py) が全リンクを取得し、死んだリンクとソフト404を検出する。[GitHub Actions](https://github.com/raindrop-daichi/awesome-japanese-heritage/blob/main/.github/workflows/linkcheck.yml) が毎週これを回し、問題があれば Issue を作成・更新し、解消すれば自動でクローズする。
+
+証明書切れのように「把握済みでこちらでは直せない」ものは `scripts/linkcheck-ignore.tsv` に理由付きで登録し、要対応から外している。ホスティング移転によるリダイレクトはページが生きているので参考情報として出すだけにしている。**検出したいのは「読めなくなったこと」であって「URLが変わったこと」ではない**ため。
+
 ## 再現方法
 
-検証は特別なツールを使っていない。すべてのMarkdownからリンク記法のURLを抽出し、`curl` でリダイレクトを追いながらステータス・最終URL・タイトルを記録し、全国文化財総覧のページについては本文PDFへのリンク数を数える、という手順である。同じことは誰でも実行できる。
+特別なツールは使っていない。手元で同じことを実行できる。
+
+```
+python3 scripts/linkcheck.py
+```
+
+すべてのMarkdownからリンク記法のURLを抽出し、`curl` でリダイレクトを追ってステータスと最終URLを記録する、それだけである。
 
 リンク切れを見つけた場合は [Issue](https://github.com/raindrop-daichi/awesome-japanese-heritage/issues) で知らせてほしい。
