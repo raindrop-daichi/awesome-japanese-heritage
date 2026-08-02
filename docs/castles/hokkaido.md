@@ -42,7 +42,7 @@ nav_order: 1
 
 - **[特別史跡五稜郭跡](https://www.city.hakodate.hokkaido.jp/docs/2014011601161/)**（函館市）
   五稜郭の沿革・保存整備事業を解説する函館市公式ページ。1983年度以降の発掘調査の経緯にも触れる。
-- **[五稜郭跡](https://bunka.nii.ac.jp/heritages/detail/160388)**（文化遺産オンライン／文化庁）
+- **[五稜郭跡](https://online.bunka.go.jp/heritages/detail/160388)**（文化遺産オンライン／文化庁）
   国指定史跡としての基礎情報と指定年（1922年）を掲載。
 - **[松前城資料館｜まつまえの文化財](https://www.town.matsumae.hokkaido.jp/bunkazai/category/219.html)**（松前町）
   日本式城郭として最後に築かれた松前城（福山城）の解説・資料館案内。1976年度以降の発掘・整備の経緯を含む。
@@ -50,7 +50,7 @@ nav_order: 1
   道南十二館の一つ、上ノ国勝山館の町公式解説ページ。
 - **[根室半島チャシ跡群](https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/kyoikuiinkai/kyoikushiryokan/siryoukann/6677.html)**（根室市教育委員会）
   市内32ヶ所のチャシ跡のうち24ヶ所が国史跡指定されている根室半島チャシ跡群の解説。
-- **[根室半島チャシ跡群](https://bunka.nii.ac.jp/heritages/detail/200896)**（文化遺産オンライン／文化庁）
+- **[根室半島チャシ跡群](https://online.bunka.go.jp/heritages/detail/200896)**（文化遺産オンライン／文化庁）
   国史跡としての指定基礎情報。
 
 ## デジタルアーカイブ

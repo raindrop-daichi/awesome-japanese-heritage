@@ -44,7 +44,7 @@ nav_order: 7
   本殿・幣殿・拝殿が令和4年（2022）に国宝指定。県内建造物として初の国宝。
 - **[霧島神宮 本殿・幣殿・拝殿](https://online.bunka.go.jp/heritages/detail/148831)**（文化遺産オンライン）
   国宝指定に関する解説。正徳5年（1715）島津吉貴による再建の経緯や意匠を紹介。
-- **[霧島神宮 勅使殿](https://bunka.nii.ac.jp/heritages/detail/191473)**（文化遺産オンライン）
+- **[霧島神宮 勅使殿](https://online.bunka.go.jp/heritages/detail/191473)**（文化遺産オンライン）
   国宝附指定の勅使殿に関する解説。
 - **[鹿児島神宮](https://kagoshima-jingu.jp/)**（鹿児島神宮）
   正殿・拝殿等が国の重要文化財。大隅国一宮。

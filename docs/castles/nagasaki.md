@@ -48,7 +48,7 @@ nav_order: 3
   肥前有馬氏代々の居城で鎌倉〜南北朝期の築城と推定。二ノ丸出土の金箔鳥衾瓦、本丸出土の法花（磁器）等を紹介。原城跡以前の有馬氏本拠として位置づけられる。
 - **[平戸城の歴史](https://hirado-castle.jp/history/)**（平戸城公式サイト）
   別名亀岡城。山鹿流築城法により1704年着工・1718年完成の経緯を解説。
-- **[金田城跡](https://www.tsushima-kanko.net/spot/kanedajou/)**（対馬観光物産協会）
+- **[金田城跡](https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/kyouiku/bunkazaika/bunkazai/shinainobunkazai/1274.html)**（対馬市 文化財課）
   663年の白村江敗戦後、大宰府防衛のため築かれた古代山城で特別史跡。城山（じょうやま）に築かれた石塁・城戸跡を紹介。
 
 ## デジタルアーカイブ
