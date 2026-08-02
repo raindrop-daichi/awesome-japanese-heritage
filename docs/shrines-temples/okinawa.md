@@ -37,12 +37,12 @@ nav_order: 8
 - **[斎場御嶽](https://www.kankou-nanjo.okinawa/tokusyu/safa/)**（南城市観光ポータル「らしいね南城市」）
   世界遺産「琉球王国のグスク及び関連遺産群」構成資産。琉球最高の聖地とされ、久高島を望む。歴史学習施設「緑の館・セーファ」が併設。運営は[南城市役所](https://www.city.nanjo.okinawa.jp/movie_library/movie_ja/1579046288/1579074902/)。
 - **[園比屋武御嶽石門](https://oki-park.jp/shurijo/gakusei/8282/8289)**（首里城公園）
-  1519年、尚真王代に築造された国指定重要文化財かつ世界遺産構成資産。首里城外の御嶽を拝む石造の門で、国王が各地へ赴く前に祈りを捧げた場所。詳細解説は[文化遺産オンライン](https://bunka.nii.ac.jp/heritages/detail/176882)にも掲載。
+  1519年、尚真王代に築造された国指定重要文化財かつ世界遺産構成資産。首里城外の御嶽を拝む石造の門で、国王が各地へ赴く前に祈りを捧げた場所。詳細解説は[文化遺産オンライン](https://online.bunka.go.jp/heritages/detail/176882)にも掲載。
 - **[波上宮](http://naminouegu.jp/)**（波上宮）
   琉球八社の首位に位置づけられた社。那覇市若狭の崖上に鎮座し、海神信仰の中心地とされる。
 - **[識名宮](http://sikinagu.com/index.html)**（識名宮）
   琉球八社の一社。尚元王代の創建と伝わり、沖縄戦で焼失後1968年に再建。首里城との関わりが深い。
-- **[旧崇元寺第一門及び石牆](https://bunka.nii.ac.jp/heritages/detail/191483)**（文化遺産オンライン）
+- **[旧崇元寺第一門及び石牆](https://online.bunka.go.jp/heritages/detail/191483)**（文化遺産オンライン）
   崇元寺は歴代琉球国王の神霊を祀った国廟。円覚寺とともに琉球仏教の中心だったが1945年の沖縄戦で本堂等を焼失し、石門・石牆のみが残り国指定重要文化財。境内一帯の史跡指定については[那覇市の発表資料](https://www.city.naha.okinawa.jp/mayor/kaiken/1007264/1007292.html)を参照。
 - **[円覚寺跡](https://oki-park.jp/shurijo/shuri-aruki/siseki/2014/01/enkakuji.html)**（首里城公園）
   1494年尚真王創建、琉球臨済宗の総本山。旧国宝の建造物群は沖縄戦で全て焼失し、現在の総門は1968年の復元。

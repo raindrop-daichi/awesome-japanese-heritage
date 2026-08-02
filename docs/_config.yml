@@ -10,6 +10,11 @@ repository: raindrop-daichi/awesome-japanese-heritage
 
 remote_theme: just-the-docs/just-the-docs@v0.8.2
 
+# 箇条書きの「資料名（運営元）」と説明文を改行で分ける。
+# 本文中に折り返し段落は存在しないため副作用はない。
+kramdown:
+  hard_wrap: true
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag

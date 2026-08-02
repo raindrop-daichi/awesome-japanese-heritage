@@ -27,7 +27,7 @@ nav_order: 5
   国宝・重要文化財・県指定文化財等を指定区分・分野・時代で検索できる。神社・寺院の建造物も含む。
 - **[国指定文化財等データベース](https://kunishitei.bunka.go.jp/)**（文化庁）
   全国横断DBだが県内分の絞り込みが可能。
-- **[山口県 - 文化遺産オンライン](https://bunka.nii.ac.jp/heritages/region/35)**（国立文化財機構）
+- **[山口県 - 文化遺産オンライン](https://online.bunka.go.jp/heritages/region/35)**（国立文化財機構）
   地域から見る文化遺産オンラインの山口県分。
 
 ## 主要社寺の公式資料

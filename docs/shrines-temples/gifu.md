@@ -36,7 +36,7 @@ nav_order: 7
   地図上で県内の文化財所在地を検索できるWebGIS。
 - **[国指定文化財等データベース](https://kunishitei.bunka.go.jp/)**（文化庁）
   全国横断DBだが県内分の検索・絞り込みが可能。
-- **[岐阜県・岐阜市 - 文化遺産オンライン](https://bunka.nii.ac.jp/heritages/region/21/21201)**（国立文化財機構）
+- **[岐阜県・岐阜市 - 文化遺産オンライン](https://online.bunka.go.jp/heritages/region/21/21201)**（国立文化財機構）
   地域から見る文化遺産オンラインの岐阜県分。
 
 ## 主要社寺の公式資料

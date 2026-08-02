@@ -26,7 +26,7 @@ nav_order: 1
 
 - **[新潟県の文化財一覧（国・県・市町村指定等）PDF](https://www.pref.niigata.lg.jp/uploaded/life/837820_2705496_misc.pdf)**（新潟県観光文化スポーツ部文化課）
   国宝1件を含む国指定文化財201件、指定等文化財計600件（令和8年4月1日現在）を収録。社寺建造物も含む。
-- **[文化遺産オンライン 新潟県](https://bunka.nii.ac.jp/heritages/region/15)**（文化庁）
+- **[文化遺産オンライン 新潟県](https://online.bunka.go.jp/heritages/region/15)**（文化庁）
   国指定文化財を地域別に検索できる全国データベースの新潟県分。
 
 ## 主要社寺の公式資料
@@ -37,7 +37,7 @@ nav_order: 1
   越後国一宮の一つ。親鸞上陸伝承地。※神社独自の公式サイトは確認できず、上越市公式観光サイトの解説ページのみ確認。
 - **[国上寺](https://kokujouji.com/)**（燕市）
   和銅2年（709年）創建と伝わる県内最古級の名刹。上杉謙信の祈願寺。
-- **[妙宣寺五重塔](https://bunka.nii.ac.jp/heritages/detail/121707)**（文化遺産オンライン）／**[佐渡市指定文化財：妙宣寺五重塔設計図](https://www.city.sado.niigata.jp/site/bunkazai/5059.html)**（佐渡市）
+- **[妙宣寺五重塔](https://online.bunka.go.jp/heritages/detail/121707)**（文化遺産オンライン）／**[佐渡市指定文化財：妙宣寺五重塔設計図](https://www.city.sado.niigata.jp/site/bunkazai/5059.html)**（佐渡市）
   新潟県内唯一の五重塔（重要文化財）を持つ日蓮宗寺院。※寺院独自の公式サイトは確認できず、文化遺産オンラインと佐渡市の文化財解説ページで代替。
 - **[林泉寺 惣門](https://www.city.joetsu.niigata.jp/site/cultural-property/cultural-property-city010.html)**（上越市指定文化財、上越市ホームページ）
   上杉謙信の菩提寺。惣門は春日山城からの移築と伝わる市指定文化財。※寺院独自の公式サイトは確認できず、上越市の文化財解説ページで代替。

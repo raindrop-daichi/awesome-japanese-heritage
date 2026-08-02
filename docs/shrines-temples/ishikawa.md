@@ -31,7 +31,7 @@ nav_order: 3
   遺跡・建造物など県内文化財を地図・キーワードから検索できるWEBサービス。指定建造物の種別で神社・寺院建築も検索可能
 - **[石川県文化財一覧（国指定）](https://www.pref.ishikawa.lg.jp/kyoiku/bunkazai/ichiran/kuniichiran.html)**（石川県）
   国宝・重要文化財等の県内一覧を掲載
-- **[文化遺産オンライン 石川県検索](https://bunka.nii.ac.jp/heritages/search/prefecture_cd:17)**（文化庁）
+- **[文化遺産オンライン 石川県検索](https://online.bunka.go.jp/heritages/search/prefecture_cd:17)**（文化庁）
   国指定文化財を都道府県別に横断検索できる
 
 ## 主要社寺の公式資料
