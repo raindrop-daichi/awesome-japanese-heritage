@@ -1,9 +1,9 @@
 <script>
-// 日本語向け検索の差し替え。
-// just-the-docs 既定の lunr は空白区切りでトークン化するため、分かち書きしない
-// 日本語では文がまるごと1トークンになり、部分文字列（例:「高取城」）が一切ヒットしない。
-// ここでは同じ検索インデックス（search-data.json）に対して単純な部分一致を行う。
-// 見た目はテーマ既定のまま（クラス名を踏襲）。
+/* 日本語向け検索の差し替え。 */
+/* just-the-docs 既定の lunr は空白区切りでトークン化するため、分かち書きしない */
+/* 日本語では文がまるごと1トークンになり、部分文字列（例:「高取城」）が一切ヒットしない。 */
+/* ここでは同じ検索インデックス（search-data.json）に対して単純な部分一致を行う。 */
+/* 見た目はテーマ既定のまま（クラス名を踏襲）。 */
 (function () {
   var BASE = '{{ site.baseurl }}';
   var MAX_RESULTS = 12;
@@ -15,7 +15,7 @@
     });
   }
 
-  // 一致箇所の前後を切り出して、一致部分を強調した HTML を返す
+  /* 一致箇所の前後を切り出して、一致部分を強調した HTML を返す */
   function preview(text, q) {
     var i = text.toLowerCase().indexOf(q);
     if (i < 0) return '';
@@ -31,7 +31,7 @@
     var results = document.getElementById('search-results');
     if (!input || !results) return;
 
-    // テーマ既定の lunr ハンドラを外すため、入力欄を差し替える
+    /* テーマ既定の lunr ハンドラを外すため、入力欄を差し替える */
     var fresh = input.cloneNode(true);
     input.parentNode.replaceChild(fresh, input);
     input = fresh;
@@ -62,7 +62,7 @@
         var inTitle = (d.title || '').toLowerCase().indexOf(lq) >= 0;
         var inBody = (d.content || '').toLowerCase().indexOf(lq) >= 0;
         if (!inDoc && !inTitle && !inBody) continue;
-        // ページ名一致 > 見出し一致 > 本文一致
+        /* ページ名一致 > 見出し一致 > 本文一致 */
         hits.push({ d: d, rank: inDoc ? 0 : (inTitle ? 1 : 2) });
       }
       hits.sort(function (a, b) { return a.rank - b.rank; });
