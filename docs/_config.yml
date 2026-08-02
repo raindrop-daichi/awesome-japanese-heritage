@@ -19,6 +19,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-sitemap
 
 # Search
 search_enabled: true

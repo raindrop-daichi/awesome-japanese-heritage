@@ -1,6 +1,7 @@
 ---
 title: ホーム
 nav_order: 1
+description: "日本の城・神社仏閣・史跡について、公開されているのに散在している一次資料への道しるべをつくるリンク集です。"
 ---
 
 # awesome-japanese-heritage

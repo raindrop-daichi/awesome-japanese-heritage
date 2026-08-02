@@ -3,6 +3,7 @@ title: 四国
 parent: 神社仏閣
 has_children: true
 nav_order: 7
+description: "四国は阿波・讃岐・伊予・土佐の旧4か国からなり、四国八十八箇所霊場（お遍路）が県境を越えて連続する点が最大の共通項である。"
 ---
 
 # 四国
