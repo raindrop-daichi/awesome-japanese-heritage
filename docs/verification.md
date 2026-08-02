@@ -94,4 +94,4 @@ python3 scripts/linkcheck.py
 
 すべてのMarkdownからリンク記法のURLを抽出し、`curl` でリダイレクトを追ってステータスと最終URLを記録する、それだけである。
 
-リンク切れを見つけた場合は [Issue](https://github.com/raindrop-daichi/awesome-japanese-heritage/issues) で知らせてほしい。
+リンク切れや記述の誤りを見つけた場合は、[間違いを見つけたら](feedback.html)から知らせてほしい。アカウント不要のフォームを用意している。
