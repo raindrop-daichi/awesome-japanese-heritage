@@ -1,10 +1,15 @@
 name: リンク生存確認
 
-# 掲載している外部リンクは黙って腐る。週に一度さらって、
+# 掲載している外部リンクは黙って腐る。月に一度さらって、
 # 問題があれば Issue に書き出す。
+#
+# 頻度を月次にしているのは、リンク先の多くが自治体・国の機関のサーバーであり、
+# 1,400本超のリクエストを毎週投げるのは相手に対して過剰だから。
+# 行政サイトのURL再編は月単位で起きるので、月次で十分間に合う。
+# （公開リポジトリのため Actions の実行時間自体は無料）
 on:
   schedule:
-    - cron: "0 21 * * 0"   # 毎週月曜 06:00 JST（UTC 日曜 21:00）
+    - cron: "0 21 1 * *"   # 毎月2日 06:00 JST（UTC 1日 21:00）
   workflow_dispatch:
 
 permissions:
@@ -14,7 +19,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 

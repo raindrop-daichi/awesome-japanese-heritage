@@ -18,6 +18,14 @@
     });
   }
 
+  /* 検索インデックス由来のURLをそのまま href に入れない。
+     Jekyll が生成する相対パス以外は受け付けず、スキーム付きURLは弾く。 */
+  function safeUrl(rel) {
+    var r = String(rel || '');
+    if (r.charAt(0) !== '/' || r.charAt(1) === '/') return BASE + '/';
+    return BASE + r;
+  }
+
   /* 一致箇所の前後を切り出して、一致部分を強調した HTML を返す */
   function preview(text, q) {
     var i = text.toLowerCase().indexOf(q);
@@ -86,7 +94,7 @@
           ? '<span class="search-result-section">' + esc(d.title) + '</span>' : '';
         var p = preview(d.content || '', q.toLowerCase());
         html += '<li class="search-results-list-item">' +
-          '<a href="' + BASE + (d.relUrl || '') + '" class="search-result">' +
+          '<a href="' + esc(safeUrl(d.relUrl)) + '" class="search-result">' +
           '<div class="search-result-title">' +
           '<span class="search-result-doc"><svg viewBox="0 0 24 24" class="search-result-icon">' +
           '<use xlink:href="#svg-doc"></use></svg>' +
