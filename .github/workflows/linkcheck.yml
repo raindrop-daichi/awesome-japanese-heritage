@@ -1,0 +1,64 @@
+name: リンク生存確認
+
+# 掲載している外部リンクは黙って腐る。週に一度さらって、
+# 問題があれば Issue に書き出す。
+on:
+  schedule:
+    - cron: "0 21 * * 0"   # 毎週月曜 06:00 JST（UTC 日曜 21:00）
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: リンクを検査
+        id: check
+        run: |
+          set +e
+          python3 scripts/linkcheck.py --out report.md
+          echo "failed=$?" >> "$GITHUB_OUTPUT"
+
+      - name: 結果をジョブサマリへ
+        run: cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 問題があれば Issue を作成・更新
+        if: steps.check.outputs.failed == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="リンク切れの検出"
+          {
+            echo "$(date -u '+%Y-%m-%d') の自動チェック結果。"
+            echo
+            cat report.md
+            echo
+            echo "---"
+            echo "このIssueは \`.github/workflows/linkcheck.yml\` が自動で更新している。"
+            echo "手元で再現するには \`python3 scripts/linkcheck.py\`。"
+          } > body.md
+
+          EXISTING=$(gh issue list --label link-rot --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" --body-file body.md
+            echo "更新: #$EXISTING"
+          else
+            gh label create link-rot --color d73a4a --description "リンク切れ" 2>/dev/null || true
+            gh issue create --title "$TITLE" --label link-rot --body-file body.md
+          fi
+
+      - name: 問題が解消していれば Issue を閉じる
+        if: steps.check.outputs.failed == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EXISTING=$(gh issue list --label link-rot --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "全リンクの生存を確認したため自動でクローズした。"
+          fi

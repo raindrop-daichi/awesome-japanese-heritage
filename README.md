@@ -4,16 +4,24 @@
 
 自治体の遺跡地図、文化財データベース、調査報告書、縄張り図——価値ある資料はすでに公開されている。ただし都道府県・市町村・機関ごとにバラバラの場所に、バラバラの形式で。ここでは、それらへのリンクを体系的に整理する。
 
-## 構成（予定）
+## 公開先
+
+https://raindrop-daichi.github.io/awesome-japanese-heritage/
+
+## 構成
 
 ```
 docs/
-├── index.md          # トップページ（GitHub Pages）
-├── castles/          # 城郭
-│   ├── national.md   # 全国横断の資料（文化財DB・遺跡報告総覧など）
-│   └── {都道府県}.md  # 自治体の遺跡地図・城郭調査報告書へのリンク
-├── shrines-temples/  # 神社仏閣
-└── general/          # 史跡全般・横断データベース
+├── index.md              # トップページ
+├── status.md             # 都道府県別の資料公開状況（城郭・宗教法人名簿）
+├── verification.md       # 検証の方法と結果、確かめていないこと
+├── castles/              # 城郭（全国横断＋47都道府県）
+├── shrines-temples/      # 神社仏閣（全国横断＋47都道府県）
+├── general/              # 史跡全般の横断データベース
+└── notes/                # 調査ノート（集めた結果から読み取ったこと）
+
+scripts/linkcheck.py      # 外部リンクの生存確認
+.github/workflows/        # 週次でリンクを検査し、問題があれば Issue 化
 ```
 
 ## 方針
