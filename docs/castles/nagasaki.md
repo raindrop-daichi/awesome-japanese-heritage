@@ -3,6 +3,7 @@ title: 長崎県
 parent: 九州・沖縄
 grand_parent: 城郭
 nav_order: 3
+description: "長崎県は肥前国西部（島原・大村・平戸・松浦地方）と壱岐・対馬の2島からなる。"
 ---
 
 # 長崎県の城郭資料

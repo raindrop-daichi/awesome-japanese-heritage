@@ -3,6 +3,7 @@ title: 静岡県
 parent: 中部
 grand_parent: 城郭
 nav_order: 8
+description: "旧国名でいえば駿河・遠江・伊豆にまたがる県で、今川・武田・北条・徳川の勢力が国境を接して争った土地柄だ。"
 ---
 
 # 静岡県の城郭資料

@@ -3,6 +3,7 @@ title: 北海道・東北
 parent: 神社仏閣
 has_children: true
 nav_order: 2
+description: "北海道・東北は、明治以降の開拓地である北海道と、中世以前からの古社古刹が集積する東北6県とで性格が大きく分かれる地方だ。"
 ---
 
 # 北海道・東北

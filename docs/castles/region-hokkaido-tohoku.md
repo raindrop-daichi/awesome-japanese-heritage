@@ -3,6 +3,7 @@ title: 北海道・東北
 parent: 城郭
 has_children: true
 nav_order: 2
+description: "北海道はかつての蝦夷地で、和人の城郭（松前城・五稜郭・道南十二館）とアイヌの砦「チャシ」が並存する特異な地域である。"
 ---
 
 # 北海道・東北

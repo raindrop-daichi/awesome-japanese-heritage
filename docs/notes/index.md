@@ -2,6 +2,7 @@
 title: 調査ノート
 nav_order: 6
 has_children: true
+description: "47都道府県分のリンクを集めていく過程で見えてきたことの記録。"
 ---
 
 # 調査ノート
