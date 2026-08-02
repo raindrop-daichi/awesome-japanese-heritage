@@ -11,7 +11,7 @@ nav_order: 3
 
 ## 宗教法人名簿
 
-- ※長崎県の宗教法人名簿は、オンラインでの一般公開を確認できず。所管は学事振興課で、[宗教法人関係](https://www.pref.nagasaki.lg.jp/bunrui/kanko-kyoiku-bunka/bunka-geijyutsu/shukyohojin/syukyo/)（長崎県）のページは代表役員変更届・規則変更等の手続き案内のみで、名簿本体へのリンクはない。
+- ※長崎県の宗教法人名簿は、オンラインでの一般公開を確認できず。所管は学事振興課で、[宗教法人関係](https://www.pref.nagasaki.lg.jp/bunrui/kanko-kyoiku-bunka/bunka-geijyutsu/shukyohojin/syukyo/)（長崎県）のページ本文および配下の各手続きページ（事務所備え付け書類、代表役員変更届等）をすべて確認したが、いずれも様式ダウンロードのみで名簿本体へのリンクはない。
 
 ## 神社庁・仏教会
 
