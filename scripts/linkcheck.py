@@ -14,12 +14,19 @@
    ボット避けで弾かれただけ、レート制限に当たっただけのものを
    リンク切れと呼ぶと、毎週オオカミ少年になり誰も見なくなる。
 
-要対応とするもの:
-  - 404 / 410 / 5xx / 接続できない
+3. 見た場所によって答えが変わることを前提にすること。このリンク集の掲載先は
+   日本の官公庁・社寺が大半で、その多くは海外IPやデータセンターIPを弾く。
+   GitHub Actions のランナーは米国にあるため、日本国内からは開けるページが
+   CI からは「接続できない」に見える。到達できないことは、リンクが死んだ
+   証拠にはならない。
+
+要対応とするもの（どこから見ても答えが変わらないもの）:
+  - 404 / 410 … サーバーが応答したうえで「無い」と言っている
   - ソフト404（200を返すが、下層URLがドメイン直下に飛ばされている）
 
-参考として出すだけのもの:
-  - 403（ボット避けの可能性が高い。ブラウザでは開けることが多い）
+要確認として挙げるだけのもの（見る場所によって変わりうる）:
+  - 接続できない / 5xx … 経路の問題か相手の一時障害か区別できない
+  - 403（ボット避け・地域制限の可能性が高い）
   - 429（こちらの叩きすぎ。相手の問題ではない）
   - 別ホストへのリダイレクト（ホスティング移転など。ページは生きている）
 
@@ -56,7 +63,7 @@ RETRY_429 = 2         # レート制限に当たったときの再試行回数
 
 LINK_RE = re.compile(r"\]\((https?://[^)\s]+)\)")
 
-FATAL = {"404", "410"}
+FATAL = {"404", "410"}  # サーバーが「無い」と明言したものだけ
 
 
 def collect_links() -> dict[str, list[str]]:
@@ -112,12 +119,14 @@ def classify(url: str, code: str, final: str) -> tuple[str | None, str | None]:
         if before and after and before != after:
             return None, f"別ホストへリダイレクト（{before} → {after}）"
         return None, None
-    if code == "000":
-        return "接続できない", None
-    if code in FATAL or code.startswith("5"):
+    if code in FATAL:
         return f"HTTP {code}", None
+    if code == "000":
+        return None, "接続できない（経路の問題か相手の障害か区別できない）"
+    if code.startswith("5"):
+        return None, f"HTTP {code}（相手の一時障害の可能性）"
     if code == "403":
-        return None, "HTTP 403（ボット避けの可能性。ブラウザでの確認が必要）"
+        return None, "HTTP 403（ボット避け・地域制限の可能性）"
     if code == "429":
         return None, "HTTP 429（レート制限。相手の問題ではない）"
     return None, f"HTTP {code}（判定保留）"
@@ -169,7 +178,7 @@ def main() -> int:
         f"外部リンク **{len(links)} 本**（{len(by_host)} ホスト）を実際に取得して確認した。",
         "",
         f"- 要対応: **{len(problems)}**",
-        f"- 参考（ページは生きている可能性が高い）: {len(notes)}",
+        f"- 要確認（この実行環境からは判断できなかったもの）: {len(notes)}",
         "",
     ]
     if problems:
@@ -194,8 +203,11 @@ def main() -> int:
         by_note: dict[str, list[str]] = collections.defaultdict(list)
         for r in notes:
             by_note[r["note"].split("（")[0]].append(r["url"])
-        lines += ["", "## 参考", "",
-                  "いずれもページ自体は生きている可能性が高く、要対応には数えていない。", ""]
+        lines += ["", "## 要確認", "",
+                  "**これらはリンク切れとは限らない。** 掲載先の多くは日本の官公庁・社寺で、"
+                  "海外IPやデータセンターIPを弾くものが少なくない。"
+                  "GitHub Actions のランナーは米国にあるため、日本国内からは問題なく開けるページが"
+                  "ここに並ぶことがある。気になるものは日本国内から手元で確認してほしい（`python3 scripts/linkcheck.py`）。", ""]
         for kind, urls in sorted(by_note.items()):
             lines.append(f"<details><summary>{kind} — {len(urls)} 件</summary>\n")
             for u in sorted(urls):
